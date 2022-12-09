@@ -1,28 +1,23 @@
-body{
-	font-family:"맑은 고딕", "고딕", "굴림";
-}
-header {
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #008799;
-	padding: 10px;
-	overflow: hidden;
+body {
+	font-family: 'NanumSquare'; 
 }
 
-header h1{
-	width:40%;
-	float:left;	
-	color:#ffffff;
+.main-wrapper{
+  width:1200px;
+	margin: 0 auto;
+  line-height:2.2em;
+}
+
+header {
+	width: 1200px;
+  height: 70px;
+	margin: 0 auto;
+	background-color: #cff2f7;
 }
 
 header nav {
-	width:60%;
+	width:40%;
 	float:right;	
-}
-
-nav ul{
-	list-style-type:none;	
 }
 
 nav ul li{
@@ -35,50 +30,47 @@ nav ul li a{
 	text-decoration:none;	
 }
 
-p {
-	font-size:15px;
-	line-height:20px;
+
+
+.content-wrapper{
+  margin: 10px auto;
+  display: flex;
+  flex-direction: roy;
+  
 }
 
-h1{
-	font-size:2em;	
+.box-a{
+  width:400px;
+  height:650px;
+  background-color: #ceeeea;
+  display:inline-block;
+  padding: 5px 10px;
+      }
+
+.box-b{width:400px;
+      height:650px;
+      background-color: #f0cceb;
+      display:inline-block;
+      padding: 5px 10px; 
+      }    
+
+.box-c{width:400px;
+      height:650px;
+      background-color: #d6f5d6;
+      display:inline-block;
+      padding: 5px 10px; 
+      }
+
+.box-d{
+	width:1200px;
+	height:200px;
+	background-color:#e0f5b8;
 }
 
-article{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	border:5px solid #333;
-	padding:5px;
-	overflow:hidden;
-}
-article section{
-	width:30%;
-	height:650px;
-	float:left;
-	margin:5px;
-	padding:5px;
-	border:1px dotted #333;
-}
-section h3{
-    background:url('../images/bg-note.png') no-repeat left center;
-    padding-left:30px;
-}
-aside{
-	clear:both;
-	margin:0 auto;
-	width:80%;
-	height:auto;
-	padding:10px;
-	background-color:#99cc33;
-}
 footer{
 	clear:both;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;	
-	margin-top:0;
-	padding:10px;
+	width: 1200px;
 	background-color:#333;
 	color:white;	
 	text-align:center;
+}
