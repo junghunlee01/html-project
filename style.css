@@ -2,6 +2,11 @@ body {
 	font-family: 'NanumSquare'; 
 }
 
+h2 {text-align: center;
+   letter-spacing: -0.01em;
+   word-spacing: 0.5em;
+}
+
 .main-wrapper{
   width:1200px;
 	margin: 0 auto;
@@ -9,10 +14,11 @@ body {
 }
 
 header {
-	width: 1200px;
-  height: 70px;
+	width: 1160px;
+  height: 150px;
 	margin: 0 auto;
 	background-color: #cff2f7;
+  padding: 5px 10px
 }
 
 header nav {
@@ -31,46 +37,53 @@ nav ul li a{
 }
 
 
-
 .content-wrapper{
   margin: 10px auto;
   display: flex;
-  flex-direction: roy;
-  
-}
+  flex-direction: row;
+  }
 
 .box-a{
-  width:400px;
-  height:650px;
+  width:350px;
+  height:670px;
   background-color: #ceeeea;
   display:inline-block;
   padding: 5px 10px;
-      }
+  margin: 10px auto;
+}
 
-.box-b{width:400px;
-      height:650px;
-      background-color: #f0cceb;
-      display:inline-block;
-      padding: 5px 10px; 
+.box-b{
+  width:350px;
+  height:670px;
+  background-color: #f0cceb;
+  display:inline-block;
+  padding: 5px 10px;
+  margin: 10px auto;
       }    
 
-.box-c{width:400px;
-      height:650px;
-      background-color: #d6f5d6;
-      display:inline-block;
-      padding: 5px 10px; 
+.box-c{
+  width:350px;
+  height:670px;
+  background-color: #d6f5d6;
+  display:inline-block;
+  padding: 5px 10px;
+  margin: 10px auto;
       }
 
 .box-d{
-	width:1200px;
+	width:1160px;
 	height:250px;
 	background-color:#e0f5b8;
+  margin: 10px auto;
+  padding: 5px 10px;
 }
 
 footer{
 	clear:both;
-	width: 1200px;
+	width: 1160px;
 	background-color:#333;
 	color:white;	
 	text-align:center;
+  margin: 10px auto;
+  padding: 5px 10px;
 }
